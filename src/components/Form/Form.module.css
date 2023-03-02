@@ -1,0 +1,32 @@
+.form {
+  background-color: #ccc;
+  display: flex;
+  gap: 20px;
+  align-items: flex-end;
+  flex-basis: 33%;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.textfield {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.error {
+  color: red;
+  position: absolute;
+  bottom: -20px;
+}
+.inputError {
+  outline-color: red;
+  border: 2px solid red;
+}
+.input {
+  outline-color: auto;
+  border: auto;
+}
